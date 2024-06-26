@@ -1,0 +1,43 @@
+:root {
+  --bg: #505066;
+  --gold: #CE9547;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5) ;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  color: var(--gold);
+}
+
+.hero::before {
+  content: "";
+  background-image: url("../../image/background-1.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+.hero h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+}
+.hero h4 {
+  font-size: 1.6rem;
+}
+.hero p {
+  font-size: 1.4rem;
+}
+.hero a {
+  background-color: var(--bg);
+  color: var(--gold);
+}
+.hero a:hover {
+  background-color: var(--gold);
+  color: var(--bg);
+}/*# sourceMappingURL=css.css.map */

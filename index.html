@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="public/src/dist/css/bootstrap.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap 5.2 -->
+    <link rel="stylesheet" href="public/src/dist/css/bootstrap.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- Countdown -->
+    <link
+      rel="stylesheet"
+      href="/public/src/dist/css/simplyCountdown.theme.default.css"
+    />
+    <script src="/public/src/dist/js/simplyCountdown.min.js"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="public/src/css/css.css" />
   </head>
   <body>
@@ -22,19 +30,186 @@
       class="hero w-100 h-100 mx-auto text-center d-flex justify-content-center align-items-center p-3"
       id="hero"
     >
+      <div class="bortop-left">
+        <img src="./public/image/border-1.png" alt="" />
+      </div>
+      <div class="bortop-right">
+        <img src="./public/image/border-1.png" alt="" />
+      </div>
       <main>
-        <h4>Kepada : Amer & Suami</h4>
-        <div class="hero-container">
-          <div class="row">
-            <img src="public/image/gate-initial.png" alt="" />
+        <h4>Dear Amer & Husband <br />Welcome to The Wedding Invitation of</h4>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="img-container">
+            <img
+              src="public/image/gate-initial-3.png"
+              alt=""
+              class="image-gate"
+            />
           </div>
         </div>
-        <p>Akan melasungkan resepsi pernikahan dalam :</p>
-        <a href="#undangan" class="btn btn-lg"
+        <a href="#undangan" class="btn btn-lg mt-4"
           ><i class="bi bi-envelope-heart"></i> Buka Undangan</a
         >
       </main>
+      <div class="borbot-left">
+        <img src="./public/image/border-1.png" alt="" />
+      </div>
+      <div class="borbot-right">
+        <img src="./public/image/border-1.png" alt="" />
+      </div>
     </section>
+    <!-- <nav class="navbar navbar-expand-md sticky-top myNavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fun & Share</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Fun & Share
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#story">Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rsvp">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#greetings">Greetings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gifts">Gifts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+    <section
+      id="home"
+      class="home h-100 w-100 justify-content-center align-items-center d-flex"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="flower-top">
+            <img src="/public/image/half-flower.png" alt="Half flower" />
+          </div>
+          <div
+            class="row main-home justify-content-center text-center align-items-center"
+          >
+            <div class="col-md-2">&nbsp;</div>
+            <div class="col-md-8 pembuka">
+              <h4>بِسْمِ الله الرحمن الرحيم</h4>
+              <h5><i>Assalaamu'alaikum wa rahmatullahi wa barakaatuh</i></h5>
+              <h5>
+                Dengan memohon Rahmat dan Ridho Allah SWT <br />
+                Mohon do'a restu Bapak/Ibu/Saudara/i dalam rangka melangsungkan
+                pernikahan putra-putri kami :
+              </h5>
+            </div>
+            <div class="col-md-2">&nbsp;</div>
+            <div class="row couple">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-8 text-end">
+                    <h3>Fani Frastio S.Tr.Kom</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Delectus qui reiciendis enim dignissimos nam, similique
+                      voluptatem ipsam, laborum pariatur nulla adipisci earum
+                      nemo, eveniet facilis eum numquam blanditiis. Nam,
+                      incidunt?
+                    </p>
+                    <p>Putra dari Bpk. Kuncoro dan Ibu Sumarni</p>
+                  </div>
+                  <div class="col-4">
+                    <img
+                      src="public/image/fani.png"
+                      alt="Fani"
+                      class="img-responsive rounded-circle"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span class="heart"><i class="bi bi-heart-fill"></i></span>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="public/image/sherina.png"
+                      alt="sherina.png"
+                      class="img-responsive rounded-circle"
+                    />
+                  </div>
+                  <div class="col-8 text-start">
+                    <h3>Sherina Fibri Indria S.Ak</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Delectus qui reiciendis enim dignissimos nam, similique
+                      voluptatem ipsam, laborum pariatur nulla adipisci earum
+                      nemo, eveniet facilis eum numquam blanditiis. Nam,
+                      incidunt?
+                    </p>
+                    <p>Putri dari Bpk. Andri Suharna dan Ibu Etty Hartanti</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flower-bottom">
+            <img src="/public/image/half-flower.png" alt="Half flower" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="simply-countdown"></div> -->
     <script src="public/src/dist/js/bootstrap.js"></script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 8, // required
+        day: 4, // required
+        hours: 0, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
+        },
+      });
+    </script>
   </body>
 </html>

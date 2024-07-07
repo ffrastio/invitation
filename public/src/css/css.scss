@@ -118,7 +118,6 @@ img {
 
     }
 
-
     .btn-lg {
         border-radius: 500px;
     }
@@ -194,7 +193,7 @@ img {
     }
 
     .pembuka {
-        background-color: var(--bg2);
+        background-color: var(--bg);
         // opacity: 0.6;
         border-radius: 20px;
     }
@@ -226,6 +225,162 @@ img {
 
     .heart i {
         margin: auto;
+    }
+
+    .nama-pengantin {
+        margin-top: 40px;
+    }
+}
+
+.quotes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    // object-fit: cover;
+}
+
+// Quotes
+.quotes {
+    content: '';
+    position: relative;
+    max-height: 100vh;
+
+    .bortop-right {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img {
+            width: 15vw;
+            rotate: 180deg;
+        }
+    }
+
+    .borbot-left {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        img {
+            width: 15vw;
+        }
+    }
+
+    .quotes-wrapper {
+        text-align: center;
+        width: 100%;
+        background-color: var(--bg);
+        border-radius: 20px;
+
+        .arabic {
+            font-size: 1.4rem;
+            font-style: italic;
+        }
+
+        .latin {
+            font-size: 1rem;
+        }
+    }
+}
+
+// date
+.date::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    // object-fit: cover;
+}
+
+.date {
+    position: relative;
+    min-height: 100vh;
+
+
+    .bortop-right {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img {
+            width: 15vw;
+            rotate: 180deg;
+        }
+    }
+
+    .bortop-left {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        img {
+            width: 15vw;
+            rotate: 90deg;
+        }
+    }
+
+    .borbot-left {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        img {
+            width: 15vw;
+        }
+
+    }
+
+    .borbot-right {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 15vw;
+            rotate: 270deg;
+        }
+
+    }
+
+    .btn-lg {
+        border-radius: 500px;
+    }
+
+    main {
+        background-color: var(--bg);
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        padding: 0 25px;
+
+        .date-akad {
+            border-top: 1px solid var(--gold);
+            border-bottom: 1px solid var(--gold);
+
+        }
+
+        .btn-lokasi {
+            border-radius: 200px;
+            background-color: var(--bg2);
+            color: var(--gold);
+            font-weight: bold;
+            padding: 3px 5px;
+        }
+
     }
 }
 
@@ -291,6 +446,10 @@ img {
 
     .home .heart {
         display: none;
+    }
+
+    .home .nama-pengantin {
+        margin-top: 30px;
     }
 }
 
